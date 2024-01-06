@@ -98,15 +98,15 @@ body {
 .feature-layout {
   margin-top: 36px;
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   justify-content: space-around;
 }
 
 /* PC, Tablet */
 @media (min-width: 740px) {
-  /* .feature-layout {
-        flex-direction: row;
-    } */
+  .feature-layout {
+    flex-direction: row;
+  }
 }
 
 .feature-item {
